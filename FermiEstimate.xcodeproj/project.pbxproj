@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59510FE6254A63400031D496 /* FermiEstimateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59510FE5254A63400031D496 /* FermiEstimateApp.swift */; };
+		59510FE8254A63400031D496 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59510FE7254A63400031D496 /* ContentView.swift */; };
+		59510FEA254A63410031D496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59510FE9254A63410031D496 /* Assets.xcassets */; };
+		59510FED254A63410031D496 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59510FEC254A63410031D496 /* Preview Assets.xcassets */; };
+		59510FF8254A63410031D496 /* FermiEstimateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59510FF7254A63410031D496 /* FermiEstimateTests.swift */; };
+		59511003254A63410031D496 /* FermiEstimateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59511002254A63410031D496 /* FermiEstimateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59510FF4254A63410031D496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59510FDA254A63400031D496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59510FE1254A63400031D496;
+			remoteInfo = FermiEstimate;
+		};
+		59510FFF254A63410031D496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59510FDA254A63400031D496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59510FE1254A63400031D496;
+			remoteInfo = FermiEstimate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59510FE2254A63400031D496 /* FermiEstimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FermiEstimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59510FE5254A63400031D496 /* FermiEstimateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FermiEstimateApp.swift; sourceTree = "<group>"; };
+		59510FE7254A63400031D496 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59510FE9254A63410031D496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59510FEC254A63410031D496 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59510FEE254A63410031D496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59510FF3254A63410031D496 /* FermiEstimateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FermiEstimateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59510FF7254A63410031D496 /* FermiEstimateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FermiEstimateTests.swift; sourceTree = "<group>"; };
+		59510FF9254A63410031D496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59510FFE254A63410031D496 /* FermiEstimateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FermiEstimateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59511002254A63410031D496 /* FermiEstimateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FermiEstimateUITests.swift; sourceTree = "<group>"; };
+		59511004254A63410031D496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59510FDF254A63400031D496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59510FF0254A63410031D496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59510FFB254A63410031D496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59510FD9254A63400031D496 = {
+			isa = PBXGroup;
+			children = (
+				59510FE4254A63400031D496 /* FermiEstimate */,
+				59510FF6254A63410031D496 /* FermiEstimateTests */,
+				59511001254A63410031D496 /* FermiEstimateUITests */,
+				59510FE3254A63400031D496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59510FE3254A63400031D496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59510FE2254A63400031D496 /* FermiEstimate.app */,
+				59510FF3254A63410031D496 /* FermiEstimateTests.xctest */,
+				59510FFE254A63410031D496 /* FermiEstimateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59510FE4254A63400031D496 /* FermiEstimate */ = {
+			isa = PBXGroup;
+			children = (
+				59510FE5254A63400031D496 /* FermiEstimateApp.swift */,
+				59510FE7254A63400031D496 /* ContentView.swift */,
+				59510FE9254A63410031D496 /* Assets.xcassets */,
+				59510FEE254A63410031D496 /* Info.plist */,
+				59510FEB254A63410031D496 /* Preview Content */,
+			);
+			path = FermiEstimate;
+			sourceTree = "<group>";
+		};
+		59510FEB254A63410031D496 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				59510FEC254A63410031D496 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59510FF6254A63410031D496 /* FermiEstimateTests */ = {
+			isa = PBXGroup;
+			children = (
+				59510FF7254A63410031D496 /* FermiEstimateTests.swift */,
+				59510FF9254A63410031D496 /* Info.plist */,
+			);
+			path = FermiEstimateTests;
+			sourceTree = "<group>";
+		};
+		59511001254A63410031D496 /* FermiEstimateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59511002254A63410031D496 /* FermiEstimateUITests.swift */,
+				59511004254A63410031D496 /* Info.plist */,
+			);
+			path = FermiEstimateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59510FE1254A63400031D496 /* FermiEstimate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59511007254A63410031D496 /* Build configuration list for PBXNativeTarget "FermiEstimate" */;
+			buildPhases = (
+				59510FDE254A63400031D496 /* Sources */,
+				59510FDF254A63400031D496 /* Frameworks */,
+				59510FE0254A63400031D496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FermiEstimate;
+			productName = FermiEstimate;
+			productReference = 59510FE2254A63400031D496 /* FermiEstimate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59510FF2254A63410031D496 /* FermiEstimateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5951100A254A63410031D496 /* Build configuration list for PBXNativeTarget "FermiEstimateTests" */;
+			buildPhases = (
+				59510FEF254A63410031D496 /* Sources */,
+				59510FF0254A63410031D496 /* Frameworks */,
+				59510FF1254A63410031D496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59510FF5254A63410031D496 /* PBXTargetDependency */,
+			);
+			name = FermiEstimateTests;
+			productName = FermiEstimateTests;
+			productReference = 59510FF3254A63410031D496 /* FermiEstimateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59510FFD254A63410031D496 /* FermiEstimateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5951100D254A63410031D496 /* Build configuration list for PBXNativeTarget "FermiEstimateUITests" */;
+			buildPhases = (
+				59510FFA254A63410031D496 /* Sources */,
+				59510FFB254A63410031D496 /* Frameworks */,
+				59510FFC254A63410031D496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59511000254A63410031D496 /* PBXTargetDependency */,
+			);
+			name = FermiEstimateUITests;
+			productName = FermiEstimateUITests;
+			productReference = 59510FFE254A63410031D496 /* FermiEstimateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59510FDA254A63400031D496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					59510FE1254A63400031D496 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					59510FF2254A63410031D496 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 59510FE1254A63400031D496;
+					};
+					59510FFD254A63410031D496 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 59510FE1254A63400031D496;
+					};
+				};
+			};
+			buildConfigurationList = 59510FDD254A63400031D496 /* Build configuration list for PBXProject "FermiEstimate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59510FD9254A63400031D496;
+			productRefGroup = 59510FE3254A63400031D496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59510FE1254A63400031D496 /* FermiEstimate */,
+				59510FF2254A63410031D496 /* FermiEstimateTests */,
+				59510FFD254A63410031D496 /* FermiEstimateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59510FE0254A63400031D496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59510FED254A63410031D496 /* Preview Assets.xcassets in Resources */,
+				59510FEA254A63410031D496 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59510FF1254A63410031D496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59510FFC254A63410031D496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59510FDE254A63400031D496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59510FE8254A63400031D496 /* ContentView.swift in Sources */,
+				59510FE6254A63400031D496 /* FermiEstimateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59510FEF254A63410031D496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59510FF8254A63410031D496 /* FermiEstimateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59510FFA254A63410031D496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59511003254A63410031D496 /* FermiEstimateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59510FF5254A63410031D496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59510FE1254A63400031D496 /* FermiEstimate */;
+			targetProxy = 59510FF4254A63410031D496 /* PBXContainerItemProxy */;
+		};
+		59511000254A63410031D496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59510FE1254A63400031D496 /* FermiEstimate */;
+			targetProxy = 59510FFF254A63410031D496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59511005254A63410031D496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59511006254A63410031D496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59511008254A63410031D496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FermiEstimate/Preview Content\"";
+				DEVELOPMENT_TEAM = TK72TQ4DYR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FermiEstimate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yahoo.co.cqcfoxhoundrexrayyy.FermiEstimate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59511009254A63410031D496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FermiEstimate/Preview Content\"";
+				DEVELOPMENT_TEAM = TK72TQ4DYR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FermiEstimate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yahoo.co.cqcfoxhoundrexrayyy.FermiEstimate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5951100B254A63410031D496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK72TQ4DYR;
+				INFOPLIST_FILE = FermiEstimateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yahoo.co.cqcfoxhoundrexrayyy.FermiEstimateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FermiEstimate.app/FermiEstimate";
+			};
+			name = Debug;
+		};
+		5951100C254A63410031D496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK72TQ4DYR;
+				INFOPLIST_FILE = FermiEstimateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yahoo.co.cqcfoxhoundrexrayyy.FermiEstimateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FermiEstimate.app/FermiEstimate";
+			};
+			name = Release;
+		};
+		5951100E254A63410031D496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK72TQ4DYR;
+				INFOPLIST_FILE = FermiEstimateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yahoo.co.cqcfoxhoundrexrayyy.FermiEstimateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FermiEstimate;
+			};
+			name = Debug;
+		};
+		5951100F254A63410031D496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK72TQ4DYR;
+				INFOPLIST_FILE = FermiEstimateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yahoo.co.cqcfoxhoundrexrayyy.FermiEstimateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FermiEstimate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59510FDD254A63400031D496 /* Build configuration list for PBXProject "FermiEstimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59511005254A63410031D496 /* Debug */,
+				59511006254A63410031D496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59511007254A63410031D496 /* Build configuration list for PBXNativeTarget "FermiEstimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59511008254A63410031D496 /* Debug */,
+				59511009254A63410031D496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5951100A254A63410031D496 /* Build configuration list for PBXNativeTarget "FermiEstimateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5951100B254A63410031D496 /* Debug */,
+				5951100C254A63410031D496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5951100D254A63410031D496 /* Build configuration list for PBXNativeTarget "FermiEstimateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5951100E254A63410031D496 /* Debug */,
+				5951100F254A63410031D496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59510FDA254A63400031D496 /* Project object */;
+}
