@@ -8,15 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+ 
     var body: some View {
-      
+      NavigationView{
       VStack {
         Text("フェルミ推定")
           .padding()
           .frame(height: 120)
           .font(.largeTitle)
         Spacer()
-        Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+        NavigationLink(destination: IndexView()) {
+          
       Text("スタート")
         .frame(height: 120)
         .font(.title)
@@ -24,7 +26,8 @@ struct ContentView: View {
         }
       }
         
-      
+      }
+      .navigationBarHidden(true)
     }
 }
 

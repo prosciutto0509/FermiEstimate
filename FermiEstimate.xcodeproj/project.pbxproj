@@ -13,6 +13,7 @@
 		59510FED254A63410031D496 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59510FEC254A63410031D496 /* Preview Assets.xcassets */; };
 		59510FF8254A63410031D496 /* FermiEstimateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59510FF7254A63410031D496 /* FermiEstimateTests.swift */; };
 		59511003254A63410031D496 /* FermiEstimateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59511002254A63410031D496 /* FermiEstimateUITests.swift */; };
+		5951101C254A7F8B0031D496 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5951101B254A7F8B0031D496 /* IndexView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		59510FFE254A63410031D496 /* FermiEstimateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FermiEstimateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59511002254A63410031D496 /* FermiEstimateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FermiEstimateUITests.swift; sourceTree = "<group>"; };
 		59511004254A63410031D496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5951101B254A7F8B0031D496 /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				59510FE5254A63400031D496 /* FermiEstimateApp.swift */,
-				59510FE7254A63400031D496 /* ContentView.swift */,
-				59510FE9254A63410031D496 /* Assets.xcassets */,
 				59510FEE254A63410031D496 /* Info.plist */,
+				59510FE7254A63400031D496 /* ContentView.swift */,
+				5951101B254A7F8B0031D496 /* IndexView.swift */,
+				59510FE9254A63410031D496 /* Assets.xcassets */,
 				59510FEB254A63410031D496 /* Preview Content */,
 			);
 			path = FermiEstimate;
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59510FE8254A63400031D496 /* ContentView.swift in Sources */,
+				5951101C254A7F8B0031D496 /* IndexView.swift in Sources */,
 				59510FE6254A63400031D496 /* FermiEstimateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
