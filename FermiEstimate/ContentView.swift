@@ -9,8 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+      
+      VStack {
+        Text("フェルミ推定")
+          .padding()
+          .frame(height: 120)
+          .font(.largeTitle)
+        Spacer()
+        Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+      Text("スタート")
+        .frame(height: 120)
+        .font(.title)
+        .foregroundColor(.black)
+        }
+      }
+        
+      
     }
 }
 
