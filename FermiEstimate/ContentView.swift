@@ -14,7 +14,7 @@ struct ContentView: View {
       VStack {
         Text("フェルミ推定")
           .padding()
-          .frame(height: 120)
+          .frame(height: 80)
           .font(.largeTitle)
         Spacer()
         NavigationLink(destination: IndexView()) {

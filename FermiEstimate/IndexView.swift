@@ -9,17 +9,29 @@ import Foundation
 import SwiftUI
 struct IndexView: View {
     var body: some View {
-  
-        Text("フェルミ推定")
-          .padding()
-          .frame(height: 120)
+      NavigationView{
+        VStack{
+        Text("問題目次")
           .font(.largeTitle)
-    
-       
+          .frame(height: 60)
+              List{
         
-    
+        NavigationLink(destination: Mondai1View()){
+          Text("問題1")
+          
+        }
         
-          .navigationBarBackButtonHidden(true)
+        
+        
+        }
+        
+        
+      }
+        .navigationBarHidden(true)
+        }
+      
+      .navigationBarHidden(true)
+        
     }
   
 }
