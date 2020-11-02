@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 struct Mondai1View: View {
-  
+  var toDate = Calendar.current.date(byAdding:.hour,value:1,to:Date())
     var body: some View {
       VStack{
         HStack{
@@ -28,9 +28,12 @@ struct Mondai1View: View {
           .font(.headline)
           Spacer()
         }.frame(height: 35)
+        Text("全国にあるスターバックスの店舗数をフェルミ推定で求めてください。\nスタートボタンを押すとタイマーが表示されます。\n制限時間は５分です。").frame(height: 150)
+        
+        TimerView(setDate: toDate!)
         Spacer()
       }
-      .navigationTitle("問題1")
+      .navigationTitle("問題1(例)")
     }
   
 }
@@ -40,3 +43,4 @@ struct Mondai1View_Previews: PreviewProvider {
     Mondai1View()
   }
 }
+

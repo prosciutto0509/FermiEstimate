@@ -15,6 +15,7 @@
 		59511003254A63410031D496 /* FermiEstimateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59511002254A63410031D496 /* FermiEstimateUITests.swift */; };
 		5951101C254A7F8B0031D496 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5951101B254A7F8B0031D496 /* IndexView.swift */; };
 		59511024254E431D0031D496 /* Mondai1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59511023254E431D0031D496 /* Mondai1View.swift */; };
+		59511029254FBBA00031D496 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59511028254FBBA00031D496 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		59511004254A63410031D496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5951101B254A7F8B0031D496 /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
 		59511023254E431D0031D496 /* Mondai1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mondai1View.swift; sourceTree = "<group>"; };
+		59511028254FBBA00031D496 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				59510FE9254A63410031D496 /* Assets.xcassets */,
 				59510FEB254A63410031D496 /* Preview Content */,
 				59511023254E431D0031D496 /* Mondai1View.swift */,
+				59511028254FBBA00031D496 /* TimerView.swift */,
 			);
 			path = FermiEstimate;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59511029254FBBA00031D496 /* TimerView.swift in Sources */,
 				59511024254E431D0031D496 /* Mondai1View.swift in Sources */,
 				59510FE8254A63400031D496 /* ContentView.swift in Sources */,
 				5951101C254A7F8B0031D496 /* IndexView.swift in Sources */,
