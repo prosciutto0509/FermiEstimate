@@ -8,10 +8,29 @@
 import Foundation
 import SwiftUI
 struct Mondai1View: View {
+  
     var body: some View {
       VStack{
-        Text("問題1 全国にあるスターバックスの店舗数")
+        HStack{
+   
+          
+        Text("スターバックスの店舗数")
+          .font(.title)
+          .multilineTextAlignment(.trailing)
+          
+        }
+        HStack(){
+          Spacer()
+        Text("前提確認")
+          .font(.headline)
+          Spacer()
+        Text("全国の運営中の店舗")
+          .font(.headline)
+          Spacer()
+        }.frame(height: 35)
+        Spacer()
       }
+      .navigationTitle("問題1")
     }
   
 }
