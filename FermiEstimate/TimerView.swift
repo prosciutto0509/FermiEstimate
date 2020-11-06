@@ -33,7 +33,7 @@ struct TimerView : View {
 
        let timeVal = cal.dateComponents([.minute,.second], from: nowD,to: setDate)
 
-       return String(format: "%02dm:%02ds",
+       return String(format: "%01d分:%02d秒",
        timeVal.minute ?? 00,
        timeVal.second ?? 00)
        
