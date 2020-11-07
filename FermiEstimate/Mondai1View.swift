@@ -10,6 +10,7 @@ import SwiftUI
 struct Mondai1View: View {
   var toDate = Calendar.current.date(byAdding:.
                                       minute,value:1,to:Date())
+  @State var endTimer = false
     var body: some View {
       VStack{
         HStack{
@@ -33,6 +34,9 @@ struct Mondai1View: View {
         
         
         TimerView(setDate: toDate!)
+        if toDate == Date(){
+
+        }
         
         Spacer()
       }

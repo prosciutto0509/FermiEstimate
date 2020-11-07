@@ -10,11 +10,12 @@ import SwiftUI
 
 struct TimerView : View {
   @State var nowD:Date = Date()
-  @State var endTimer = false
+
    let setDate:Date
    
    var timer: Timer {
        Timer.scheduledTimer(withTimeInterval: 1, repeats: true) {_ in
+        
            self.nowD = Date()
         
        }
@@ -33,7 +34,7 @@ struct TimerView : View {
 
        let timeVal = cal.dateComponents([.minute,.second], from: nowD,to: setDate)
 
-       return String(format: "%01d分:%02d秒",
+       return String(format: "%01d分%02d秒",
        timeVal.minute ?? 00,
        timeVal.second ?? 00)
        
