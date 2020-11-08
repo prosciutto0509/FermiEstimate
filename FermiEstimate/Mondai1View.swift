@@ -33,10 +33,10 @@ struct Mondai1View: View {
         Text("全国にあるスターバックスの店舗数をフェルミ推定で求めてください。\nスタートボタンを押すとタイマーが表示されます。\n制限時間は５分です。").frame(height: 150)
         
         
-        TimerView(setDate: toDate!)
-        if toDate == Date(){
-
-        }
+      
+    
+          TimerView(setDate: toDate!)
+     
         
         Spacer()
       }
