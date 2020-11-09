@@ -11,7 +11,7 @@ import SwiftUI
 struct TimerView : View {
   @State var nowD:Date = Date()
   @State var endTimer  = 1
-  @State var TimerView = true
+  @State var TimerScreen = true
    let setDate:Date
    
    var timer: Timer {
@@ -20,14 +20,15 @@ struct TimerView : View {
            self.nowD = Date()
         endTimer = TimerEnd(from: nowD)
         if endTimer == 0{
-          TimerView = false
+          TimerScreen = false
+          
         }
        }
    }
    
  
    var body: some View {
-    if TimerView{
+    if TimerScreen{
        Text(TimerFunc(from: setDate))
            .font(.largeTitle)
            .onAppear(perform: {
@@ -57,6 +58,7 @@ func TimerEnd(from date:Date)->Int{
   func counter() -> Int {
     if timeVal.second == 00{
       count = 0
+      timer.invalidate()
     }else{
       count = 1
     }
@@ -68,3 +70,9 @@ func TimerEnd(from date:Date)->Int{
   
    
   }
+
+struct TimerView_Previews: PreviewProvider {
+  static var previews: some View {
+    /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+  }
+}
