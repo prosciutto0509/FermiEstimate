@@ -21,7 +21,7 @@ struct TimerView : View {
         endTimer = TimerEnd(from: nowD)
         if endTimer == 0{
           TimerScreen = false
-          
+          swichview(swich: 1)
         }
        }
    }
