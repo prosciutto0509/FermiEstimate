@@ -13,7 +13,7 @@ struct TimerView : View {
   @State var endTimer  = 1
   @State var TimerScreen = true
    let setDate:Date
-   
+  @Binding var swich:Bool
    var timer: Timer {
        Timer.scheduledTimer(withTimeInterval: 1, repeats: true) {_ in
         
@@ -21,7 +21,8 @@ struct TimerView : View {
         endTimer = TimerEnd(from: nowD)
         if endTimer == 0{
           TimerScreen = false
-          swichview(swich: 1)
+//          self.timer.invalidate()
+          change = false
         }
        }
    }
@@ -35,6 +36,7 @@ struct TimerView : View {
                           _ = self.timer
                       })
     }
+    
 }
 
    func TimerFunc(from date:Date)->String{

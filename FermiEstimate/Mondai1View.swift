@@ -10,9 +10,10 @@ import SwiftUI
 struct Mondai1View: View {
   var toDate = Calendar.current.date(byAdding:.
                                       minute,value:1,to:Date())
-  @State var ViewDraw:Bool = swichview(swich: 0)
+  @State var swich:Bool = true
   
-  @State var endTimer = false
+
+ 
     var body: some View {
       VStack{
         HStack{
@@ -36,27 +37,20 @@ struct Mondai1View: View {
         
         
       
-    
-          TimerView(setDate: toDate!)
-     
+        if swich {
+          TimerView(setDate: toDate!, swich: $swich)
+        }else{
+          Text("終わりました")
+        }
         
         Spacer()
       }
       .navigationTitle("問題1(例)")
     }
+
+  
   
 }
-
-
-func swichview(swich: Int) -> Bool{
-  var draw:Bool
-    if swich == 1{
-  draw = true
-    }else{
-      draw = false
-    }
-  return draw
-  }
 
 
 
