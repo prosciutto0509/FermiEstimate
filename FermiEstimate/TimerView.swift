@@ -11,31 +11,38 @@ import SwiftUI
 struct TimerView : View {
   @State var nowD:Date = Date()
   @State var endTimer  = 1
-  @State var TimerScreen = true
+  
+
    let setDate:Date
-  @Binding var swich:Bool
+  @Binding var swich1:Bool
+  
    var timer: Timer {
        Timer.scheduledTimer(withTimeInterval: 1, repeats: true) {_ in
         
-           self.nowD = Date()
+        if swich{self.nowD = Date()
+        }else{
+          self.timer.invalidate()
+        }
+        
         endTimer = TimerEnd(from: nowD)
         if endTimer == 0{
-          TimerScreen = false
-//          self.timer.invalidate()
-          change = false
+          swich = false
+       
         }
        }
    }
    
  
    var body: some View {
-    if TimerScreen{
+   
        Text(TimerFunc(from: setDate))
            .font(.largeTitle)
            .onAppear(perform: {
                           _ = self.timer
                       })
-    }
+    
+     
+    
     
 }
 
@@ -52,6 +59,7 @@ struct TimerView : View {
     }
   
   
+  
 func TimerEnd(from date:Date)->Int{
   let cal = Calendar(identifier: .japanese)
   var count  = 0
@@ -60,7 +68,7 @@ func TimerEnd(from date:Date)->Int{
   func counter() -> Int {
     if timeVal.second == 00{
       count = 0
-      timer.invalidate()
+   
     }else{
       count = 1
     }
@@ -69,6 +77,10 @@ func TimerEnd(from date:Date)->Int{
   return  counter()
   
 }
+  
+
+  
+  
   
    
   }

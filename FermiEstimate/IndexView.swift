@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 struct IndexView: View {
+  @State var swich1:Bool = true
     var body: some View {
       NavigationView{
         VStack{
@@ -16,7 +17,7 @@ struct IndexView: View {
           .frame(height: 60)
               List{
         
-        NavigationLink(destination: Mondai1View()){
+                NavigationLink(destination: Mondai1View(swich1: $swich1)){
           Text("問題1")
           
         }

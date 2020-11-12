@@ -11,7 +11,7 @@ struct Mondai1View: View {
   var toDate = Calendar.current.date(byAdding:.
                                       minute,value:1,to:Date())
   @State var swich:Bool = true
-  
+  @Binding var swich1:Bool
 
  
     var body: some View {
@@ -37,11 +37,9 @@ struct Mondai1View: View {
         
         
       
-        if swich {
-          TimerView(setDate: toDate!, swich: $swich)
-        }else{
-          Text("終わりました")
-        }
+        
+          TimerView(setDate: toDate!, swich1: $swich1)
+       
         
         Spacer()
       }
